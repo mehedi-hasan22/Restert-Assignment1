@@ -117,3 +117,61 @@ h5 {
     width: 80vw;
     height: 300px;
 }
+
+footer {
+    background-color: #151414;
+    color: #f2f2f2;
+}
+
+.footer-inner {
+    display: flex;
+    padding: 60px 20px;
+}
+
+.footer-content {
+    margin-left: 60px;
+    width: 65vw;
+}
+
+.footer-form {
+    width: 35vw;
+    padding-left: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 0.5rem;
+    width: 80%;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    background: none;
+    border-radius: 7px;
+    margin: 20px 0;
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: #ffffff;
+}
+
+.button-submit {
+    color: #ffffff;
+    background-color: #005fac;
+    border: none;
+    width: 160px;
+    height: 56px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+}
