@@ -79,7 +79,7 @@ h5 {
 }
 
 .plans-heading {
-    margin: 60px 0;
+    margin: 45px 0;
     text-align: center;
     font-size: x-large;
 }
@@ -92,10 +92,32 @@ h5 {
 .plan {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     width: 15vw;
     height: 250px;
+}
+
+.goals-heading {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #74a5ce;
 }
 
 .gradient {
@@ -174,4 +196,5 @@ input::placeholder {
 
 .copyright {
     text-align: center;
+    padding-bottom: 10px;
 }
